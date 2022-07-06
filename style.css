@@ -142,17 +142,22 @@
 }
 .donate_plan{
     display: flex;
+    text-align: left;
 }
 .donate_plan_one{
     width: 30%;
     margin: 10px 15px;
     background-color: #4F9DA61A;
-    padding: 10px;
-    border-radius: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 1px solid #4f9da67a;
 }
 .donate_plan_one img{
-    width: 100%;
+    width: 17%;
     border-radius: 2px;
+    padding-top: 37px;
 }
 .donate_plan_one h2{
     font-family: 'Inter', sans-serif;
@@ -164,12 +169,16 @@
     width: 30%;
     margin: 10px 15px;
     background-color: #FF59591A;
-    padding: 10px;
-    border-radius: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 1px solid #ff59595c;
 }
 .donate_plan_two img{
-    width: 100%;
+    width: 17%;
     border-radius: 2px;
+    padding-top: 37px;
 }
 .donate_plan_two h2{
     font-family: 'Inter', sans-serif;
@@ -181,12 +190,16 @@
     width: 30%;
     margin: 10px 15px;
     background-color: #FFF4D6;
-    padding: 10px;
-    border-radius: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    padding-left: 30px;
+    border: 1px solid #ffc934;
 }
 .donate_plan_three img{
-    width: 100%;
+    width: 17%;
     border-radius: 2px;
+    padding-top: 37px;
 }
 .donate_plan_three h2{
     font-family: 'Inter', sans-serif;
@@ -234,14 +247,12 @@
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
 }
-/*----------------------body_section_Four----------------------*/
+/*----------------------body_section_four----------------------*/
 #body_section_four{
     width: 100%;
     margin: 0 auto;
-
 }
 .body_section_four{
-
     padding-top: 80px;
     padding-bottom: 80px;
     text-align: center;
@@ -251,32 +262,111 @@
     font-size: 65px;
     color: #000;
     font-weight: 700;
+}
+.body_section_four p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.fund_plan{
+    display: flex;
+}
+.fund_plan_one{
+    width: 30%;
+    margin: 10px 15px;
+    background-color: #4F9DA61A;
+    padding: 10px;
+    border-radius: 2px;
+}
+.fund_plan_one img{
+    width: 100%;
+    border-radius: 2px;
+}
+.fund_plan_one h2{
+    font-family: 'Inter', sans-serif;
+}
+.fund_plan_one p{
+    font-family: 'Poppins', sans-serif;
+}
+.fund_plan_two{
+    width: 30%;
+    margin: 10px 15px;
+    background-color: #FF59591A;
+    padding: 10px;
+    border-radius: 2px;
+}
+.fund_plan_two img{
+    width: 100%;
+    border-radius: 2px;
+}
+.fund_plan_two h2{
+    font-family: 'Inter', sans-serif;
+}
+.fund_plan_two p{
+    font-family: 'Poppins', sans-serif;
+}
+.fund_plan_three{
+    width: 30%;
+    margin: 10px 15px;
+    background-color: #FFF4D6;
+    padding: 10px;
+    border-radius: 2px;
+}
+.fund_plan_three img{
+    width: 100%;
+    border-radius: 2px;
+}
+.fund_plan_three h2{
+    font-family: 'Inter', sans-serif;
+}
+.fund_plan_three p{
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------------body_section_Five----------------------*/
+#body_section_five{
+    width: 100%;
+    margin: 0 auto;
+
+}
+.body_section_five{
+
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.body_section_five h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    color: #000;
+    font-weight: 700;
     width: 100%;
 }
-.section_four_top{
+.section_five_top{
     display: flex;
     width: 100%;
 }
-.section_four_left{
+.section_five_left{
     width: 25%;
 }
-.section_four_form{
+.section_five_form{
     width: 50%;
     
 }
-.section_four_form form{
+.section_five_form form{
     padding: 50px;
     background-color: #FFF4D6;
     
 }
-.section_four_form form input{
+.section_five_form form input{
     border: 1px solid #D9D9D9;
     background-color: #D9D9D9;
     padding: 15px 20px;
     font-size: 16px;
     border-radius: 5px 0 0 5px;
 }
-.section_four_form form button{
+.section_five_form form button{
     padding: 13px 32px;
     background-color: #FF5959;
     border: 1px solid #FF5959;
