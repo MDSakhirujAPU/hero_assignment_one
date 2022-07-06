@@ -1,0 +1,197 @@
+/*----------------------Banner Section----------------------*/
+#banner_section{
+    width: 100%;
+    margin: 0 auto;
+    background:linear-gradient(to bottom, rgb(58 72 80 / 70%), rgb(2 1 17 / 88%)), url(images/donation12.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+.banner h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    color: #fff;
+    font-weight: 700;
+}
+.banner p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.banner a{
+    cursor: pointer;
+    background-color: #FF5959;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+/*----------------------body_section----------------------*/
+#body_section{
+    width: 100%;
+    margin: 0 auto;
+}
+.body_section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.body_section h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    color: #000;
+    font-weight: 700;
+}
+.body_section p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.body_section a{
+    cursor: pointer;
+    background-color: #FF5959;
+    color:#fff;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+}
+.body_section ul{
+    padding-bottom: 30px;  
+}
+.body_section ul li{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    list-style: none;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.body_section ul li span{
+    border:2px solid #FF5959;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    background-color: #FFEEEE;
+}
+.body_section form{
+    margin-bottom: 50px;
+}
+.body_section form input{
+    width: 50%;
+    text-align: center;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #B3B3B3;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*----------------------body_section_two----------------------*/
+#body_section_two{
+    width: 100%;
+    margin: 0 auto;
+}
+.body_section_two{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.body_section_two h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    color: #000;
+    font-weight: 700;
+}
+.body_section_two p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 40px;
+    font-weight: 400;
+}
+.donate_plan{
+    display: flex;
+}
+.donate_plan_one{
+    width: 30%;
+    margin: 10px 15px;
+    background-color: #4F9DA61A;
+    padding: 10px;
+    border-radius: 2px;
+}
+.donate_plan_one img{
+    width: 100%;
+    border-radius: 2px;
+}
+.donate_plan_one h2{
+    font-family: 'Inter', sans-serif;
+}
+.donate_plan_one p{
+    font-family: 'Poppins', sans-serif;
+}
+.donate_plan_two{
+    width: 30%;
+    margin: 10px 15px;
+    background-color: #FF59591A;
+    padding: 10px;
+    border-radius: 2px;
+}
+.donate_plan_two img{
+    width: 100%;
+    border-radius: 2px;
+}
+.donate_plan_two h2{
+    font-family: 'Inter', sans-serif;
+}
+.donate_plan_two p{
+    font-family: 'Poppins', sans-serif;
+}
+.donate_plan_three{
+    width: 30%;
+    margin: 10px 15px;
+    background-color: #FFF4D6;
+    padding: 10px;
+    border-radius: 2px;
+}
+.donate_plan_three img{
+    width: 100%;
+    border-radius: 2px;
+}
+.donate_plan_three h2{
+    font-family: 'Inter', sans-serif;
+}
+.donate_plan_three p{
+    font-family: 'Poppins', sans-serif;
+}
+/*----------------------body_section_two----------------------*/
